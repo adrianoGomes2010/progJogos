@@ -1,2 +1,1 @@
-# progJogos
-Meu Projeto da aula de programação
+# ProgJogosQui16h
