@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/paranoid_dead.md",
+                "file": "aulas_curso/git_github.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "paranoid_dead"
+              "title": "git_github"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2d785aea7a1c6296",
@@ -188,10 +189,10 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "9d9860937204435d",
+  "active": "114f22dd3b35bb17",
   "lastOpenFiles": [
-    "aulas_curso/git_github.md",
     "projects/paranoid_dead.md",
+    "aulas_curso/git_github.md",
     "projects",
     "Curso/git_github.md",
     "aulas_curso",

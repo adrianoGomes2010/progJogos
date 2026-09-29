@@ -1,7 +1,11 @@
 # Git e GitHub
 
 ## Comandos
-
+### Clone Inicial
+```sh
+git clone https://github.com/nomedeusuariodoaluno/nomedorepositorio.git
+cd nomedorepositorio code .
+```
 ### 🏫 Curso: configuração local
 
 ```sh
