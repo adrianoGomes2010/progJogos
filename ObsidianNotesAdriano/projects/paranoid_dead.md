@@ -28,13 +28,14 @@ Clementine
 
 ## Estrutura do Jogo
 
-| Dimensão (2D) | Gênero Do Jogo | Lore (Tipo Base) | Mecânica de Progressão (Destaque) | A Grande Quest (Objetivo) |
-| ------------- | -------------- | ---------------- | --------------------------------- | ------------------------- |
-| Top Down      | Ação           | Zumbi            | Reputação                         |                           |
-|               | Terror         |                  | Itens que quebram com o tempo     |                           |
-|               |                |                  | Sanidade                          |                           |
-|               |                |                  | Frio, fome                        |                           |
-|               |                |                  | Paranoia                          |                           |
+| Dimensão (2D) | Gênero Do Jogo | Lore (Tipo Base) | Mecânica de Progressão (Destaque) | A Grande Quest (Objetivo)     | Habilidades             | Enigmas                      |
+| ------------- | -------------- | ---------------- | --------------------------------- | ----------------------------- | ----------------------- | ---------------------------- |
+| Top Down      | Ação           | Zumbi            | Reputação                         | Achar uma cura                | Dash                    |                              |
+|               | Terror         |                  | Itens que quebram com o tempo     | Tentar sobreviver a esse caos | Ataque corpo a corpo    | Arrombar portas              |
+|               |                |                  | Sanidade                          |                               | Ataque a distãncia      | Empurrar caixas              |
+|               |                |                  | Frio, fome                        |                               | Defesa                  | Encontrar passagens secretas |
+|               |                |                  | Paranoia                          |                               | Empurrar coisas e seres | Escolher as rotas certas     |
+
 
 ## Região onde se passa o jogo
  
