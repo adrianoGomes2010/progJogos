@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Minas de Cristais de Sangue.md",
-                "mode": "preview",
+                "file": "projects/paranoid_dead.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Minas de Cristais de Sangue"
+              "title": "paranoid_dead"
             }
           }
         ]
@@ -190,9 +190,9 @@
   },
   "active": "114f22dd3b35bb17",
   "lastOpenFiles": [
+    "Minas de Cristais de Sangue.md",
     "projects/paranoid_dead.md",
     "aulas_curso/git_github.md",
-    "Minas de Cristais de Sangue.md",
     "projects",
     "Curso/git_github.md",
     "aulas_curso",
