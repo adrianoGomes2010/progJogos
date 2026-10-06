@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "aulas_curso/git_github.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2d785aea7a1c6296",
@@ -192,6 +191,7 @@
   "active": "114f22dd3b35bb17",
   "lastOpenFiles": [
     "projects/paranoid_dead.md",
+    "Minas de Cristais de Sangue.md",
     "aulas_curso/git_github.md",
     "projects",
     "Curso/git_github.md",

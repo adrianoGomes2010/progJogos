@@ -1,49 +1,56 @@
-# Git e GitHub
+## 🖥️ PASSO A PASSO DO GIT — TERMINAL
 
-## Comandos
-### Clone Inicial
-```sh
+Execute os comandos dentro da pasta do repositório. **Atenção: só faça o `git clone` se o aluno ainda não tiver clonado o projeto. Se a pasta do projeto já existir no computador, não repita o clone; apenas entre nela com `cd` e continue.**
+
+>[!IMPORTANT]
+> - LIMPAR GIT NA AREA DE TRABALHO
+> - ADD GIT IGNORE DA TECNOLOGIA EM QUESTÃO
+
+```shell
 git clone https://github.com/nomedeusuariodoaluno/nomedorepositorio.git
-cd nomedorepositorio code .
+cd nomedorepositorio
 ```
-### 🏫 Curso: configuração local
 
-```sh
-# Configuração (apenas uma vez)
+### Configuração da identidade
+
+```shell
+git config --global user.name "adrianoGomes2010"
+git config --global user.email "adrianogsthiago16@gmail.com"
+```
+
+Se outra pessoa usa Git no mesmo computador, use `--local` dentro desta pasta:
+
+> [!DANGER]
+> NO CURSO É PARA USAR ESSE AQUI DE BAIXO! NUNCA, JAMAIS O GLOBAL
+
+```shell
 git config --local user.name "adrianoGomes2010"
 git config --local user.email "adrianogsthiago16@gmail.com"
+```
 
-# Fluxo do README
+### Publicar a alteração do README
+
+Depois de editar ou criar o `README.md` no VS Code, execute:
+
+```shell
 git pull
-git status
 git add .
-git commit -m "Melhora o README do projeto"
+```
+
+```shell
+git commit -m "Mensagem: "
+```
+
+```shell
 git push
 ```
 
-### 🏠 Casa: configuração global ou local
+Na primeira publicação, configure o remoto uma única vez, somente se este repositório ainda não tiver um remoto configurado:
 
-Use `--global` quando somente você utiliza Git no computador. Se outra pessoa usa Git/GitHub no mesmo PC, troque apenas `--global` por `--local` dentro da pasta do projeto.
-
-```sh
-# Configuração (apenas uma vez)
-git config --global user.name "nomedeusuariodoaluno"
-git config --global user.email "nomedeusuariodoaluno@email.com"
-
-# Fluxo do README
-git pull
-git status
-git add .
-git commit -m "Melhora o README do projeto"
-git push
-```
-
-Para um repositório novo ainda sem conexão com o GitHub:
-
-```sh
+```shell
 git branch -M main
 git remote add origin https://github.com/nomedeusuariodoaluno/nomedorepositorio.git
 git push -u origin main
 ```
 
-O `git status` confere o que foi alterado, preparado ou ainda está pendente antes do `push`.
+A configuração `--local` só é necessária se outra pessoa também usa Git no PC; para uso individual, `--global` basta.
